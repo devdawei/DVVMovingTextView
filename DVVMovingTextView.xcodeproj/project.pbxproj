@@ -1,0 +1,328 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D90AEFCC1D123AC500F17609 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D90AEFCB1D123AC500F17609 /* main.m */; };
+		D90AEFCF1D123AC500F17609 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D90AEFCE1D123AC500F17609 /* AppDelegate.m */; };
+		D90AEFD21D123AC500F17609 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90AEFD11D123AC500F17609 /* ViewController.m */; };
+		D90AEFD51D123AC500F17609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90AEFD31D123AC500F17609 /* Main.storyboard */; };
+		D90AEFD71D123AC500F17609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D90AEFD61D123AC500F17609 /* Assets.xcassets */; };
+		D90AEFDA1D123AC500F17609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D90AEFD81D123AC500F17609 /* LaunchScreen.storyboard */; };
+		D90AEFEA1D124A3A00F17609 /* TestController.m in Sources */ = {isa = PBXBuildFile; fileRef = D90AEFE91D124A3A00F17609 /* TestController.m */; };
+		D957CD6D1DC7264100CA4E99 /* DVVMovingTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = D957CD6C1DC7264100CA4E99 /* DVVMovingTextView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D90AEFC71D123AC400F17609 /* DVVMovingTextView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DVVMovingTextView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90AEFCB1D123AC500F17609 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D90AEFCD1D123AC500F17609 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D90AEFCE1D123AC500F17609 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D90AEFD01D123AC500F17609 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D90AEFD11D123AC500F17609 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D90AEFD41D123AC500F17609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D90AEFD61D123AC500F17609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D90AEFD91D123AC500F17609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D90AEFDB1D123AC500F17609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D90AEFE81D124A3A00F17609 /* TestController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestController.h; sourceTree = "<group>"; };
+		D90AEFE91D124A3A00F17609 /* TestController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestController.m; sourceTree = "<group>"; };
+		D957CD6B1DC7264100CA4E99 /* DVVMovingTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DVVMovingTextView.h; sourceTree = "<group>"; };
+		D957CD6C1DC7264100CA4E99 /* DVVMovingTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DVVMovingTextView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D90AEFC41D123AC400F17609 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D90AEFBE1D123AC400F17609 = {
+			isa = PBXGroup;
+			children = (
+				D90AEFC91D123AC400F17609 /* DVVMovingTextView */,
+				D90AEFC81D123AC400F17609 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D90AEFC81D123AC400F17609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D90AEFC71D123AC400F17609 /* DVVMovingTextView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D90AEFC91D123AC400F17609 /* DVVMovingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D957CD6A1DC7260400CA4E99 /* DVVMovingTextView */,
+				D90AEFCD1D123AC500F17609 /* AppDelegate.h */,
+				D90AEFCE1D123AC500F17609 /* AppDelegate.m */,
+				D90AEFD01D123AC500F17609 /* ViewController.h */,
+				D90AEFD11D123AC500F17609 /* ViewController.m */,
+				D90AEFE81D124A3A00F17609 /* TestController.h */,
+				D90AEFE91D124A3A00F17609 /* TestController.m */,
+				D90AEFD31D123AC500F17609 /* Main.storyboard */,
+				D90AEFD61D123AC500F17609 /* Assets.xcassets */,
+				D90AEFD81D123AC500F17609 /* LaunchScreen.storyboard */,
+				D90AEFDB1D123AC500F17609 /* Info.plist */,
+				D90AEFCA1D123AC500F17609 /* Supporting Files */,
+			);
+			path = DVVMovingTextView;
+			sourceTree = "<group>";
+		};
+		D90AEFCA1D123AC500F17609 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D90AEFCB1D123AC500F17609 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D957CD6A1DC7260400CA4E99 /* DVVMovingTextView */ = {
+			isa = PBXGroup;
+			children = (
+				D957CD6B1DC7264100CA4E99 /* DVVMovingTextView.h */,
+				D957CD6C1DC7264100CA4E99 /* DVVMovingTextView.m */,
+			);
+			path = DVVMovingTextView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D90AEFC61D123AC400F17609 /* DVVMovingTextView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D90AEFDE1D123AC500F17609 /* Build configuration list for PBXNativeTarget "DVVMovingTextView" */;
+			buildPhases = (
+				D90AEFC31D123AC400F17609 /* Sources */,
+				D90AEFC41D123AC400F17609 /* Frameworks */,
+				D90AEFC51D123AC400F17609 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DVVMovingTextView;
+			productName = DVVMovingTextView;
+			productReference = D90AEFC71D123AC400F17609 /* DVVMovingTextView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D90AEFBF1D123AC400F17609 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = devdawei;
+				TargetAttributes = {
+					D90AEFC61D123AC400F17609 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = D90AEFC21D123AC400F17609 /* Build configuration list for PBXProject "DVVMovingTextView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D90AEFBE1D123AC400F17609;
+			productRefGroup = D90AEFC81D123AC400F17609 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D90AEFC61D123AC400F17609 /* DVVMovingTextView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D90AEFC51D123AC400F17609 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90AEFDA1D123AC500F17609 /* LaunchScreen.storyboard in Resources */,
+				D90AEFD71D123AC500F17609 /* Assets.xcassets in Resources */,
+				D90AEFD51D123AC500F17609 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D90AEFC31D123AC400F17609 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D90AEFD21D123AC500F17609 /* ViewController.m in Sources */,
+				D957CD6D1DC7264100CA4E99 /* DVVMovingTextView.m in Sources */,
+				D90AEFCF1D123AC500F17609 /* AppDelegate.m in Sources */,
+				D90AEFCC1D123AC500F17609 /* main.m in Sources */,
+				D90AEFEA1D124A3A00F17609 /* TestController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D90AEFD31D123AC500F17609 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90AEFD41D123AC500F17609 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D90AEFD81D123AC500F17609 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D90AEFD91D123AC500F17609 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D90AEFDC1D123AC500F17609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D90AEFDD1D123AC500F17609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D90AEFDF1D123AC500F17609 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVVMovingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVMovingTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D90AEFE01D123AC500F17609 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DVVMovingTextView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.devdawei.DVVMovingTextView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D90AEFC21D123AC400F17609 /* Build configuration list for PBXProject "DVVMovingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90AEFDC1D123AC500F17609 /* Debug */,
+				D90AEFDD1D123AC500F17609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D90AEFDE1D123AC500F17609 /* Build configuration list for PBXNativeTarget "DVVMovingTextView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D90AEFDF1D123AC500F17609 /* Debug */,
+				D90AEFE01D123AC500F17609 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D90AEFBF1D123AC400F17609 /* Project object */;
+}
