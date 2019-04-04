@@ -120,7 +120,7 @@
     }
     else
     {
-        frame.origin.x -= 1;
+        frame.origin.x -= 1.0/[UIScreen mainScreen].scale;
     }
     _movingLabel.frame = frame;
 }

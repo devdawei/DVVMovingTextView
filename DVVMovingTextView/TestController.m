@@ -29,7 +29,7 @@
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(10 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         dispatch_async(dispatch_get_main_queue(), ^{
-            _movingTextView.movingText = @"新公告：我是新公告我是新公告";
+            self.movingTextView.movingText = @"新公告：我是新公告我是新公告";
         });
     });
 }
